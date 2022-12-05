@@ -66,16 +66,16 @@ def control(pos_x, pos_y, time, velocity):
     # Pay close attention to the time, position, and velocity in the simulator.
     
     # TODO: Use this information to make decisions about how to set your car parameters
-       if(pos_y>38):
-        car_parameters['throttle'] = -1
+       if(pos_y>37.5):
+        car_parameters['throttle'] = -0.3
         car_parameters['steer'] = 25
         car_parameters['brake'] = 0
     elif(pos_y>34.5):
-        car_parameters['throttle'] = -1
+        car_parameters['throttle'] = -0.3
         car_parameters['steer'] = 0
         car_parameters['brake'] = 0
     elif (pos_y>31.5):
-        car_parameters['throttle'] = -1
+        car_parameters['throttle'] = -0.3
         car_parameters['steer'] = -25
         car_parameters['brake'] = 0
     else:
