@@ -41,8 +41,8 @@ def move(dy, dx, beliefs, blurring):
     new_G = [[0.0 for i in range(width)] for j in range(height)]
     for r, row in enumerate(beliefs):
         for k, cell in enumerate(row):
-            new_i = (r + dy ) % width
-            new_j = (k + dx ) % height
+            new_i = (r + dy ) % height
+            new_j = (k + dx ) % width
             #pdb.set_trace()
             new_G[int(new_i)][int(new_j)] = cell
     return blur(new_G, blurring)
