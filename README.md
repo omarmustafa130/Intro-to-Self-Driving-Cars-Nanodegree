@@ -14,3 +14,5 @@ A repository containing all projects and practices of the Udacity's intro to sel
 [Project 5 - Implementing Route Planner](https://github.com/omarmustafa130/Intro-to-Self-Driving-Cars-Nanodegree/tree/main/Projects/Project%205%20-%20Implementing%20Route%20Planner)
 
 [Project 6 - Traffic Light Classifier](https://github.com/omarmustafa130/Intro-to-Self-Driving-Cars-Nanodegree/tree/main/Projects/Project%206%20-%20Traffic%20Light%20Classifier)
+
+![Certificate of graduation](https://github.com/[omarmustafa130]/[Intro-to-Self-Driving-Cars-Nanodegree]/blob/[main]/Certificate.png?raw=true)
